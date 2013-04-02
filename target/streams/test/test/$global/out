@@ -1,0 +1,22 @@
+[info] IntegrationSpec
+[info] 
+[info] Application should
+[info] + work from within a browser
+[info]  
+[info]  
+[info] Total for specification IntegrationSpec
+[info] Finished in 2 seconds, 318 ms
+[info] 1 example, 0 failure, 0 error
+[info] 
+[info] ApplicationSpec
+[info] 
+[info] Application should
+[info] + send 404 on a bad request
+[info] + render the index page
+[info]  
+[info]  
+[info] Total for specification ApplicationSpec
+[info] Finished in 98 ms
+[info] 2 examples, 0 failure, 0 error
+[info] 
+[info] Passed: : Total 3, Failed 0, Errors 0, Passed 3, Skipped 0

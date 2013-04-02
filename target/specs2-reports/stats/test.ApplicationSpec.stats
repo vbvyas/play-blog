@@ -1,0 +1,10 @@
+<test.ApplicationSpec-results timestamp="1364790593733"><result location="test.ApplicationSpec (ApplicationSpec.scala:23)" id="-1257939978"><stats time="281" expectations="1" failures="1" examples="1"></stats></result>
+</test.ApplicationSpec-results>
+<test.ApplicationSpec-stats timestamp="1364790593749"><stats time="862" expectations="2" failures="1" successes="1" examples="2"></stats></test.ApplicationSpec-stats>
+<test.ApplicationSpec-results timestamp="1364790622184"><result location="test.ApplicationSpec (ApplicationSpec.scala:23)" id="-1257939978"><stats time="288" expectations="1" failures="1" examples="1"></stats></result>
+</test.ApplicationSpec-results>
+<test.ApplicationSpec-stats timestamp="1364790622197"><stats time="869" expectations="2" failures="1" successes="1" examples="2"></stats></test.ApplicationSpec-stats>
+<test.ApplicationSpec-results timestamp="1364790682258"><result location="test.ApplicationSpec (ApplicationSpec.scala:23)" id="-1257939978"><stats time="281" expectations="1" failures="1" examples="1"></stats></result>
+</test.ApplicationSpec-results>
+<test.ApplicationSpec-stats timestamp="1364790682271"><stats time="854" expectations="2" failures="1" successes="1" examples="2"></stats></test.ApplicationSpec-stats>
+<test.ApplicationSpec-stats timestamp="1364790730887"><stats time="98" expectations="2" successes="2" examples="2"><trend><stats time="98" failures="-1" successes="1"></stats></trend></stats></test.ApplicationSpec-stats>

@@ -1,0 +1,42 @@
+@(articles: List[Article], articleForm: Form[(String, String, Option[String])])
+
+@import helper._
+
+@main("My blog") {
+
+	<h1>@articles.size blog post(s)</h1>
+	
+	<ul style="list-style-type:none" >
+		@articles.map { article =>
+			<li>
+			<div>
+				<span>
+				<h3>
+				@article.title
+				</h3>
+				By @article.author
+				</span>
+				<div style="background:#AAAAAA">
+				@article.content
+				</div>
+				<span>
+				@form(routes.Application.deleteArticle(article.id)) {
+					<input type="submit" value="Delete">
+				}
+				</span>
+				</div>
+			</li>
+		}
+	</ul>
+	
+	<h2>Add a new blog post</h2>
+	
+	@form(routes.Application.newArticle) {
+		@inputText(articleForm("title"))
+		@inputText(articleForm("author"))
+		@inputText(articleForm("content"))
+		
+		<input type="submit" value="Create">
+		
+	}
+}

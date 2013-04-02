@@ -1,0 +1,9 @@
+help play
+dependencies
+dependencies --sync
+play install morphia-1.2.12
+install morphia-1.2.12
+DB.withConnection { implicit c => SQL("select * from article") }
+import play.api.db._
+help play
+run

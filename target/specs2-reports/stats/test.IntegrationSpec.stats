@@ -1,0 +1,8 @@
+<test.IntegrationSpec-results timestamp="1364790595362"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="1562" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1364790595367"><stats time="1562" expectations="1" failures="1" examples="1"></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-results timestamp="1364790623752"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="1509" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1364790623763"><stats time="1510" expectations="1" failures="1" examples="1"></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-stats timestamp="1364790683811"><stats time="1488" expectations="1" successes="1" examples="1"><trend><stats time="1488" failures="-1" successes="1"></stats></trend></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-stats timestamp="1364790730736"><stats time="2318" expectations="1" successes="1" examples="1"></stats></test.IntegrationSpec-stats>

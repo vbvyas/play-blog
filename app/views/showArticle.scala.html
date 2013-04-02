@@ -1,0 +1,22 @@
+@(article: Article)
+
+@import helper._
+
+@main("Article") {
+	<div>
+				<span>
+				<h3>
+				@article.title
+				</h3>
+				By @article.author
+				</span>
+				<div style="background:#AAAAAA">
+				@article.content
+				</div>
+				<span>
+				@form(routes.Application.deleteArticle(article.id)) {
+					<input type="submit" value="Delete">
+				}
+				</span>
+				</div>
+}
